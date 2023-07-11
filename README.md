@@ -1,6 +1,6 @@
 # crowdFunding
 
-'''
+```
 <Project Name> is a web application inspired by Facebook for users to fund campaigns . <Project Name> allows users to arrange fund fro their campaigns and users to become part of different initiatives
 
 <Project Name> is a personal project by Dhruv  Sharma.
@@ -15,7 +15,7 @@ Major Features:
 •	Connect to your wallet.
 •	Create your own Campaign.
 •	Fully responsive design with smooth animations
-'''
+```
 
 ![image](https://github.com/DhruvSharma19/crowdFunding/assets/112254552/c198b5f6-dbc9-455e-acbb-179c25e8d1be)
 
