@@ -1,8 +1,8 @@
-# crowdFunding
+# FundHive
 
-<Project Name> is a web application inspired by Facebook for users to fund campaigns . <Project Name> allows users to arrange fund fro their campaigns and users to become part of different initiatives
+FundHive is a web application inspired by Facebook for users to fund campaigns . FundHive allows users to arrange fund for their campaigns and users to become part of different initiatives
 
-<Project Name> is a personal project by Dhruv  Sharma.
+Fund Hive is a personal project by Dhruv  Sharma.
 
 <Project Link>  vite-javascript-starter (main--incredible-rugelach-dd78fb.netlify.app)
 
@@ -47,7 +47,7 @@ Major Features:
 
 Technology
 
-<Project Name> is a single-page application built using :
+FundHive is a single-page application built using :
 
 1.	React js
 2.	Solidity
