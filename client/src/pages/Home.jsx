@@ -29,10 +29,9 @@ const Home = ({ q, setQ }) => {
   return (
     <DisplayCampaigns
       title="All Campaigns"
-      q={q}
-      setQ={setQ}
       isLoading={isLoading}
       campaigns={campaigns}
+      q={q}
     />
   );
 };
