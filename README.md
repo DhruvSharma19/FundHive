@@ -4,7 +4,7 @@ FundHive is a web application inspired by Facebook for users to fund campaigns .
 
 Fund Hive is a personal project by Dhruv  Sharma.
 
-Website Link:  vite-javascript-starter (main--incredible-rugelach-dd78fb.netlify.app)
+Website Link: https://incredible-rugelach-dd78fb.netlify.app/
 
 Major Features:
 
