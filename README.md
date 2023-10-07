@@ -1,6 +1,6 @@
 # FundHive
 
-FundHive is a web application inspired by Facebook for users to fund campaigns . FundHive allows users to arrange fund for their campaigns and users to become part of different initiatives
+FundHive is a web application that allows users to fund campaigns. FundHive allows users to arrange fund for their campaigns and users to become part of different initiatives.
 
 Fund Hive is a personal project by Dhruv  Sharma.
 
