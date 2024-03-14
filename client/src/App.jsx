@@ -1,11 +1,16 @@
-import React, { useState } from 'react';
-import { Route, Routes } from 'react-router-dom';
-import { Sidebar, Navbar } from './components';
-import { CampaignDetails, CreateCampaign, Home, Profile, UpdateCampaign } from './pages';
+import React, { useState } from "react";
+import { Route, Routes } from "react-router-dom";
+import { Sidebar, Navbar } from "./components";
+import {
+  CampaignDetails,
+  CreateCampaign,
+  Home,
+  Profile,
+  UpdateCampaign,
+} from "./pages";
 
 const App = () => {
-
-  const [q,setQ]=useState("");
+  const [q, setQ] = useState("");
 
   return (
     <div className="relative sm:-8 p-4 bg-[#13131a] min-h-screen flex flex-row">
@@ -23,8 +28,7 @@ const App = () => {
         </Routes>
       </div>
     </div>
-  
-  )
-}
+  );
+};
 
-export default App
+export default App;

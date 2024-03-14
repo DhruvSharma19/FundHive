@@ -65,28 +65,25 @@ const CampaignDetails = () => {
   };
 
   const handleUpdate = async () => {
-    try{
-
+    try {
       setIsLoading(true);
       navigate(`/campaignUpdate/${state.pId}`);
       setIsLoading(false);
-    }catch(err){
+    } catch (err) {
       setIsLoading(false);
       console.log(err);
     }
   };
 
   const handleDelete = async () => {
-    try{
-
+    try {
       setIsLoading(true);
-      
+
       await deleteCampaign(state.pId);
-      
+
       navigate("/");
       setIsLoading(false);
-    }
-    catch(err){
+    } catch (err) {
       setIsLoading(false);
       console.log(err);
     }
@@ -238,7 +235,8 @@ const CampaignDetails = () => {
                   remainingDays >= 0 && compareAmounts()
                     ? "Fund Campaign"
                     : state.owner == address &&
-                      (remainingDays == 0 || !compareAmounts()) && state.payedOut===false
+                      (remainingDays == 0 || !compareAmounts()) &&
+                      state.payedOut === false
                     ? "Withdraw Funds"
                     : "Finished"
                 }
@@ -246,14 +244,19 @@ const CampaignDetails = () => {
                 handleClick={() => {
                   if (remainingDays >= 0 && compareAmounts()) handleDonate();
                   if (state.owner == address) {
-                    if (remainingDays == 0 || !compareAmounts() && state.payedOut===false)
+                    if (
+                      remainingDays == 0 ||
+                      (!compareAmounts() && state.payedOut === false)
+                    )
                       handleWithdraw();
                   }
                 }}
               />{" "}
               <br />
               <br />
-              {state.owner == address && remainingDays >= 0 && compareAmounts() ? (
+              {state.owner == address &&
+              remainingDays >= 0 &&
+              compareAmounts() ? (
                 <CustomButton
                   btnType="button"
                   title={remainingDays >= 0 && compareAmounts() ? "Edit" : ""}
@@ -267,7 +270,9 @@ const CampaignDetails = () => {
               )}
               <br />
               <br />
-              {state.owner == address && remainingDays >= 0 && compareAmounts() ? (
+              {state.owner == address &&
+              remainingDays >= 0 &&
+              compareAmounts() ? (
                 <CustomButton
                   btnType="button"
                   title={remainingDays >= 0 && compareAmounts() ? "Delete" : ""}
