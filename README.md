@@ -1,4 +1,4 @@
-# FundHive 🐝
+# FundHive 
 
 FundHive is a web application that allows users to fund campaigns. FundHive enables users to arrange funds for their campaigns and become part of different initiatives.
 
@@ -13,7 +13,7 @@ Major Features:
    - Search for campaigns by their names.
    - Connect to your wallet.
    - Create your own Campaign.
-   - Fully responsive design with smooth animations 🖥️
+   - Fully responsive design with smooth animations 
 
 ![image](https://github.com/DhruvSharma19/crowdFunding/assets/112254552/c198b5f6-dbc9-455e-acbb-179c25e8d1be)
 
